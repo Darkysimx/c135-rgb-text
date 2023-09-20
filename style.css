@@ -1,0 +1,50 @@
+body{
+    background-size: cover;
+}
+.titulo{
+    font-size: 24px;
+    width: 100%;
+    margin: 0px;
+}
+.botao{
+    font-size: 20px;
+
+}
+#vira-mao{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    line-height: 3;
+    background-color: darkgrey;
+    font-weight: bold;
+    text-align: center;
+    animation: brilho 2s linear infinite;
+}
+@keyframes brilho {
+    0% {
+        color: red;
+        text-shadow: 0 0 10px red;
+    }
+    25% {
+        color: rgb(0, 221, 225);
+        text-shadow: 0 0 15px rgb(0, 221, 255);
+    }
+    50% {
+        color: rgb(21, 255, 0);
+        text-shadow: 0 0 20px rgb(21, 255, 0);
+    }
+    75% {
+        color: rgb(255, 0, 221);
+        text-shadow: 0 0 15px rgb(255, 0, 221);
+    }
+    100% {
+        color: rgb(255, 0, 89);
+        text-shadow: 0 0 10px rgb(255, 0, 89);
+    }
+}
+canva{
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px white;
+}
